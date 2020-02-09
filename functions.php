@@ -1,6 +1,5 @@
 <?php
-
-
+//Put this code to functions.php
 
 function customizekorbo($customizekorbo){
 	
@@ -18,7 +17,11 @@ function customizekorbo($customizekorbo){
 		'label' => 'Copyright Text',
 		'type' => 'text'
 	));
-	
-	
 }
-add_action('customize_register', 'customizekorbo');
+add_action('customize_register', 'customizekorbo'); ?>
+
+<?php
+
+//Put this code to front end to eco the data
+
+ echo get_theme_mod('copyright_text'); ?>
