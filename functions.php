@@ -1,3 +1,7 @@
+<?php
+
+
+
 function customizekorbo($customizekorbo){
 	
 	$customizekorbo->add_section('general_section', array(
