@@ -20,8 +20,6 @@ function customizekorbo($customizekorbo){
 }
 add_action('customize_register', 'customizekorbo'); ?>
 
-<?php
+<?php //Put this code to front end to eco the data ?>
 
-//Put this code to front end to eco the data
-
- echo get_theme_mod('copyright_text'); ?>
+<?php echo get_theme_mod('copyright_text'); ?>
